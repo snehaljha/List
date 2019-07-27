@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+              android:background="@color/barca_pink"
+              android:layout_gravity="center"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            app:contentPadding="16dp"
+            app:cardBackgroundColor="@color/barca_indigo"
+            android:id="@+id/rename_card"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content" tools:targetApi="o">
+        <TextView
+                android:text="@string/rename"
+                android:layout_width="wrap_content"
+                android:background="@color/barca_indigo"
+                android:textSize="22sp"
+                android:textColor="@color/barca_pink"
+                android:layout_height="wrap_content" android:id="@+id/textView4"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            app:contentPadding="16dp"
+            app:cardBackgroundColor="@color/barca_indigo"
+            android:id="@+id/share_card"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+        <TextView
+                android:text="@string/share"
+                android:background="@color/barca_indigo"
+                android:layout_width="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@color/barca_pink"
+                android:layout_height="wrap_content" android:id="@+id/textView2"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:id="@+id/del_card"
+            app:contentPadding="16dp"
+            app:cardBackgroundColor="@color/barca_indigo"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content" tools:targetApi="o">
+        <TextView
+                android:text="@string/delete"
+                android:background="@color/barca_indigo"
+                android:layout_width="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@color/barca_pink"
+                android:layout_height="wrap_content" android:id="@+id/textView3"/>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
